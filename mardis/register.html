@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="lang">
+    <head>
+        <meta charset="UTF-8">
+        <meta=name="viewport" content="widht=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styleregister.css">
+        <link href="https://unpkg.com/boxicons@2.1.4/boxicons.min.css" rel="stylesheet">
+        <title>"Register"</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <form action="">
+                <h1>Register</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class="bx bxs-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Alamat Lengkap" required>
+                    <i class="bx bxs-map"></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Nomor Telepon" required>
+                    <i class="bx bxs-phone"></i>
+                    </div>
+                <div class="input-box">
+                   <label for="gender" placeholder="Gender:" required></label>
+                   <select name="gender" id="gender" required>
+                   <option value="">--Pilih Gender--</option>
+                   <option value="male">Male</option>
+                   <option value="female">Female</option>
+                  </select>
+                </div>
+                <div class="input-box">
+                    <input type="date" placeholder="Date Of Birth" name="Birthday" required>
+                    <i class="bx bxs-calendar"></i>
+                </div> 
+
+                <div class="input-box">
+                    <input type="email" placeholder="Email" required>
+                    <i class="bx bxs-envelope"></i>
+                    <div class="input-box">
+                        <input type="new-password" placeholder="Create Password" required>
+                        <i class="bx bxs-lock-alt"></i>
+                    </div>
+                <div class="agreement">
+                   <label><input type="checkbox">i agree to the</label>
+                   <a href="#">Terms of Service</a> and
+                   <a href="#">Privacy Policy</a>                  
+                </div>
+                <button type="submit" class="btn">Register</button>
+            </form>
+
+        </div>
+    </body>

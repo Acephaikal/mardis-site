@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2? family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+
+}
+
+
+.wrapper img {
+    width: 300px;
+    size: 10px;
+
+}
